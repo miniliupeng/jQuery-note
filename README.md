@@ -1,12 +1,12 @@
 # jQuery-note
-jQuery API
-一、核心
+***一、核心***
 
-jQuery 核心函数
-jQuery([selector,[context]])          这个函数接收一个包含 CSS 选择器的字符串，然后用这个字符串去匹配一组元素
-jQuery(html,[ownerDocument])          根据提供的原始 HTML 标记字符串，动态创建由 jQuery 对象包装的 DOM 元素。同时设置一系列的属性、事件等
-jQuery(callback)                      $(document).ready()的简写，当DOM加载完成后要执行的函数
-jQuery.readyException( error )        处理包裹在jQuery()中函数同步抛出的错误
+jQuery 核心函数  
+
+jQuery([selector,[context]])  这个函数接收一个包含 CSS 选择器的字符串，然后用这个字符串去匹配一组元素  
+jQuery(html,[ownerDocument])          根据提供的原始 HTML 标记字符串，动态创建由 jQuery 对象包装的 DOM 元素。同时设置一系列的属性、事件等  
+jQuery(callback)                      $(document).ready()的简写，当DOM加载完成后要执行的函数  
+jQuery.readyException( error )        处理包裹在jQuery()中函数同步抛出的错误  
 
 jQuery 对象访问
 each(callback)                        以每一个匹配的元素作为上下文来执行一个函数
